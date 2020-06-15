@@ -76,8 +76,9 @@
 
   <link href="https://nicholasoliveira.github.io/AzulViagens-RC19/assets/css/main.css" rel="stylesheet" type="text/css">
 
-  <link href="https://nicholasoliveira.github.io/AzulViagens-RC19/assets/css/style_inPage.css" rel="stylesheet"
-    type="text/css">
+  <link
+    href="http://localhost:8888/Arquivos/tudoazul/CAMPANHAS/SandBox/azul-viagens-055bb/lp055b/assets/css/style_inPage.css"
+    rel="stylesheet" type="text/css">
 
   <!-- Browser specific overrides, after all other CSS files-->
   <!--[if lte IE 8]>
@@ -967,8 +968,9 @@
               </div>
 
               <div class="col-md-12 padding0 d-flex justify-content-center align-items-center mb-padding-ld-10">
-                <img src="https://nicholasoliveira.github.io/AzulViagens-RC19/assets/img/MockMovie.png"
-                  class="align-self-center" width="1020" alt="">
+                <iframe width="1020" height="572" src="https://www.youtube.com/embed/4qeIpEj6s9g" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
               </div>
 
               <div class="spacer-40"></div>
@@ -980,6 +982,30 @@
       <style>
         .font-22-18 {
           font-size: 22px;
+        }
+
+        .activeBall:hover :after {
+          text-decoration: none;
+          content: "";
+          position: absolute;
+          left: -60px;
+          top: 0px;
+          color: #fff;
+          font-size: 40px;
+          width: 25px;
+          height: 25px;
+          font-size: 1px;
+          border: 0px;
+          background-color: #cbe9fb;
+          border-radius: 50%;
+          margin-left: 18px;
+          margin-top: 18px;
+          opacity: 1;
+        }
+
+        .activeBall:hover {
+          background-color: #cbe9fb;
+          opacity: 1;
         }
 
         @media screen and(max-width: 768px) {
@@ -1128,23 +1154,25 @@
                 <div class="packageTravelBar md-hide">
                   <div></div>
                 </div>
-                <div class="packageTravelDetails d-flex col-xs-12 col-md-9 flex-column padding0 mb-padding-ld-10 ">
-                  <a href="https://www.azulviagens.com.br/packages/flightHotel/?packageID=1">
+                <div
+                  class="packageTravelDetails d-flex col-xs-12 col-md-9 flex-column padding0 mb-padding-ld-10 position-relative">
+                  <a class="activeBall position-relative"
+                    href="https://www.azulviagens.com.br/packages/flightHotel/?packageID=1">
                     <div class="font-35-30 color-53b7f2 padding-0-8">
                       <strong>&nbsp;&nbsp;+ Pacotes de Viagens</strong>
                     </div>
                   </a>
-                  <a href="https://www.azulviagens.com.br/hotels/">
-                    <div class="lighter font-50-40 color-0d1e3d bck-cbe9fb padding-0-8">
+                  <a class="activeBall position-relative" href="https://www.azulviagens.com.br/hotels/">
+                    <div class="lighter font-50-40 color-0d1e3d padding-0-8">
                       &nbsp;&nbsp;Hotéis
                     </div>
                   </a>
-                  <a href="https://www.azulviagens.com.br/">
+                  <a class="activeBall position-relative" href="https://www.azulviagens.com.br/">
                     <div class="normal font-35-30 color-53b7f2 padding-0-8">
                       &nbsp;&nbsp;Passagens Aéreas <strong>Azul</strong>
                     </div>
                   </a>
-                  <a href="https://tudoazul.voeazul.com.br/web/azul/home">
+                  <a class="activeBall position-relative" href="https://tudoazul.voeazul.com.br/web/azul/home">
                     <div class="lighter font-40-35 color-0d1e3d padding-0-8">
                       &nbsp;&nbsp;Utilize Pontos Tudo<strong>Azul</strong>
                     </div>
