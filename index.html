@@ -964,19 +964,6 @@
           font-size: 22px;
         }
 
-        .menuHorizontal>div {
-          position: relative;
-        }
-
-        .active:before {
-          position: absolute;
-          bottom: -25px;
-          right: 50%;
-          color: #fff;
-          content: "\e007";
-          font-family: Icon_set_AV;
-        }
-
         @media screen and(max-width: 768px) {
           .font-22-18 {
             font-size: 18px;
@@ -1006,6 +993,19 @@
         }
 
         @media (min-width: 992px) {
+          .menuHorizontal>div {
+            position: relative;
+          }
+
+          .active:before {
+            position: absolute;
+            bottom: -25px;
+            right: 50%;
+            color: #fff;
+            content: "\e007";
+            font-family: Icon_set_AV;
+          }
+
           .lg-61-66 {
             width: 61.66% !important;
           }
