@@ -60,7 +60,7 @@ border-radius: 0px 20px 20px 0px;
   color: #ffffff;
 }
 .AZ_Section002{
-  background-image: url(https://tudoazul.voeazul.com.br/documents/26002/763575/Gramado.jpg);
+  background-image: url(https://tudoazul.voeazul.com.br/documents/26002/763575/GramadoBck-min.jpg);
   background-size: cover;
   background-position: 50% 20%;
   background-repeat: no-repeat;
@@ -68,6 +68,13 @@ border-radius: 0px 20px 20px 0px;
 }
 .AZ_Section002_FOZ{
   background-image: url(https://tudoazul.voeazul.com.br/documents/26002/763575/FozBck-min.png);
+  background-size: cover;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  min-height: 800px;
+}
+.AZ_Section002_MACEIO{
+  background-image: url(https://tudoazul.voeazul.com.br/documents/26002/763575/MaceioBck-min.png);
   background-size: cover;
   background-position: 50% 20%;
   background-repeat: no-repeat;
@@ -82,6 +89,13 @@ border-radius: 0px 20px 20px 0px;
 }
 .AZ_Section002_PORTOGALINHAS{
   background-image: url(https://tudoazul.voeazul.com.br/documents/26002/763575/PortoGalinhasBck-min.png);
+  background-size: cover;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  min-height: 800px;
+}
+.AZ_Section002_PORTOSEGURO{
+  background-image: url(https://tudoazul.voeazul.com.br/documents/26002/763575/PortoSeguroBck-min.png);
   background-size: cover;
   background-position: 50% 20%;
   background-repeat: no-repeat;
