@@ -1,3 +1,3 @@
 Link para visualizar o Projeto online:
 
-https://nicholasoliveira.github.io/AzulViagens-RC19/
+https://nicholasoliveira.github.io/job-AzulViagens/
